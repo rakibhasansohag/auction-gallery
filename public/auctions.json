@@ -1,0 +1,67 @@
+{
+	"auctions": [
+		{
+			"id": 1,
+			"title": "Vintage Leica M3 Camera",
+			"description": "This Leica M3 camera is a vintage classic, with a timeless design and exceptional image quality. It's a must-have for any photography enthusiast.",
+			"currentBidPrice": 2850,
+			"timeLeft": "3 Days left",
+			"image": "https://i.ibb.co/1GHx1ZpH/camera.jpg",
+			"bidsCount": 2
+		},
+		{
+			"id": 2,
+			"title": "1965 Gibson SG Standard Electric Guitar",
+			"description": "This Gibson SG Standard electric guitar is a true classic, with its iconic body shape and rich, warm tone. It's a must-have for any serious musician.",
+			"currentBidPrice": 2850,
+			"timeLeft": "4 Days left",
+			"image": "https://i.ibb.co/cXkH4tRR/guitar.jpg",
+			"bidsCount": 1
+		},
+		{
+			"id": 3,
+			"title": "Original Apple Macintosh 128K (1984)",
+			"description": "This original Apple Macintosh 128K is a piece of computer history, with its iconic design and revolutionary operating system. It's a must-have for any tech enthusiast.",
+			"currentBidPrice": 2850,
+			"timeLeft": "7 Days left",
+			"image": "https://i.ibb.co/sprPHGKg/apple-macton.jpg",
+			"bidsCount": 4
+		},
+		{
+			"id": 4,
+			"title": "Rolex Submariner 16610",
+			"description": "This Rolex Submariner 16610 is a luxury watch that exudes style and sophistication. With its sleek design and exceptional quality, it's a must-have for any watch collector.",
+			"currentBidPrice": 2850,
+			"timeLeft": "1 Day left",
+			"image": "https://i.ibb.co/v6QChhXt/rolex.jpg",
+			"bidsCount": 2
+		},
+		{
+			"id": 5,
+			"title": "Hermès Birkin Bag",
+			"description": "The Hermès Birkin Bag is a symbol of luxury and exclusivity, crafted from the finest leather with exquisite detail. A must-have for fashion connoisseurs.",
+			"currentBidPrice": 15000,
+			"timeLeft": "3 Days left",
+			"image": "https://i.ibb.co/pHTVz35/hermas-bag.jpg",
+			"bidsCount": 4
+		},
+		{
+			"id": 6,
+			"title": "Ferrari F40",
+			"description": "This Ferrari F40 is an automotive legend, celebrated for its performance and design. It's a dream car for any car enthusiast.",
+			"currentBidPrice": 1200000,
+			"timeLeft": "5 Days left",
+			"image": "https://i.ibb.co/nMbkkVxJ/ferrari.jpg",
+			"bidsCount": 10
+		},
+		{
+			"id": 7,
+			"title": "Stradivarius Violin",
+			"description": "A rare Stradivarius Violin, known for its unmatched sound quality and craftsmanship. A treasure for any musician.",
+			"currentBidPrice": 30000,
+			"timeLeft": "1 Day left",
+			"image": "https://i.ibb.co/Z1ch6cPK/Violin.jpg",
+			"bidsCount": 5
+		}
+	]
+}
