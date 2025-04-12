@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Splash from './components/Splash';
 import GotoTop from './components/GotoTop';
+import CookieConsent from './components/CookieConsent';
 
 function App() {
 	const [showSplash, setShowSplash] = useState(true);
@@ -14,6 +15,7 @@ function App() {
 
 	const handleSplashFinish = () => {
 		setShowSplash(false);
+		localStorage.setItem('splashCompleted', 'true');
 		setTimeout(() => setContentVisible(true), 100);
 	};
 
@@ -28,6 +30,7 @@ function App() {
 					contentVisible ? 'opacity-100' : 'opacity-0'
 				}`}
 			>
+				<CookieConsent />
 				<Navbar favoritesCount={favorites.length} />
 				<Banner />
 				<Auctions favorites={favorites} setFavorites={setFavorites} />

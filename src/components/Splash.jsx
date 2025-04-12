@@ -9,6 +9,9 @@ useEffect(() => {
 	const img = new Image();
 	img.src = '/free_palestine1.jpg';
 	img.onload = () => setImageLoaded(true);
+	 img.onerror = () => {
+			console.error('Failed to load splash image');
+		};
 }, []);
 
 useEffect(() => {

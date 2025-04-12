@@ -105,7 +105,7 @@ const Auctions = ({ favorites, setFavorites }) => {
 	return (
 		<section className='py-16 bg-[#EBF0F5]' id='auctions'>
 			<div className='container mx-auto px-4'>
-				<div className='my-8'>
+				<div className='my-4'>
 					<h2 className='text-3xl font-bold mb-2'>Active Auctions</h2>
 					<p className='text-gray-600 text-lg'>
 						Discover and bid on extraordinary items
