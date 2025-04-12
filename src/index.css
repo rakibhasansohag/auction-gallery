@@ -183,3 +183,16 @@ body {
   animation: slide-down 0.5s ease-in forwards;
   z-index: 9999;
 }
+
+/* FOr the banner Word animation */
+.fade-text {
+  transition: opacity 0.5s ease-in-out;
+}
+.fade-out {
+  opacity: 0;
+}
+.fade-in {
+  opacity: 1;
+}
+
+
