@@ -112,9 +112,9 @@ const Auctions = ({ favorites, setFavorites }) => {
 					</p>
 				</div>
 
-				<div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+				<div className='grid grid-cols-1 lg:grid-cols-3 gap-6'>
 					{/* Left - Table */}
-					<div className='md:col-span-2 bg-white rounded-xl p-2 sm:p-6 shadow-lg'>
+					<div className='lg:col-span-2 bg-white rounded-xl p-2 sm:p-6 shadow-lg'>
 						<div className='overflow-x-auto'>
 							<table className='table'>
 								<thead>
@@ -182,7 +182,7 @@ const Auctions = ({ favorites, setFavorites }) => {
 					</div>
 
 					{/* Right - Cart */}
-					<div className='md:col-span-1 bg-white rounded-xl py-6 shadow-lg h-fit'>
+					<div className='lg:col-span-1 bg-white rounded-xl py-6 shadow-lg h-fit'>
 						<h3 className='text-2xl font-semibold mb-6 text-center border-b border-gray-200 pb-3 flex items-center justify-center gap-2'>
 							{favorites.length > 0 ? (
 								<FaHeart
@@ -249,12 +249,15 @@ const Auctions = ({ favorites, setFavorites }) => {
 												</p>
 											</div>
 										</div>
-										<button
-											onClick={() => removeFromFavorites(fav.id)}
-											className='text-xl font-bold text-gray-400 hover:text-red-600 cursor-pointer'
-										>
-											<MdCancel size={30} />
-										</button>
+
+										<div className='tooltip' data-tip='Remove'>
+											<button
+												onClick={() => removeFromFavorites(fav.id)}
+												className='text-xl font-bold text-gray-400 hover:text-red-600 cursor-pointer '
+											>
+												<MdCancel size={30} />
+											</button>
+										</div>
 									</div>
 								))}
 							</div>
